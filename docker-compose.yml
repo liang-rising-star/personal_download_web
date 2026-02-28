@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: wsxxxstar/personal_download_web:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/web
+    restart: always
