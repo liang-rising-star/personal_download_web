@@ -6,22 +6,25 @@
 
 ```
 web/
-├── css/             # 样式文件
-│   └── style.css    # 主样式文件
-├── html/            # HTML文件
-│   └── index.html   # 主页面
-├── image/           # 图片资源
-│   ├── face/        # 用户头像
-│   └── icon/        # 网站图标
-├── js/              # JavaScript文件
-│   ├── config.js    # 配置文件
-│   └── main.js      # 主脚本文件
-├── resources/       # 资源文件
-│   ├── iso/         # 镜像文件
-│   ├── music/       # 音乐文件
-│   ├── sh/          # 脚本文件
-│   ├── tool/        # 工具软件
-│   └── video/       # 视频文件
+├── css/               # 样式文件
+│   └── style.css      # 主样式文件
+├── html/              # HTML文件
+│   └── index.html     # 主页面
+├── image/             # 图片资源
+│   ├── face/          # 用户头像
+│   │   ├── admin.jpg  # 管理员头像
+│   │   └── guest.jpg  # 游客头像
+│   └── icon/          # 网站图标
+│   │   └── logo.ico   # 网站图标
+├── js/                # JavaScript文件
+│   ├── config.js      # 配置文件
+│   └── main.js        # 主脚本文件
+├── resources/         # 资源文件
+│   ├── iso/           # 镜像文件
+│   ├── music/         # 音乐文件
+│   ├── sh/            # 脚本文件
+│   ├── tool/          # 工具软件
+│   └── video/         # 视频文件
 └──
 ```
 
