@@ -12,10 +12,10 @@ web/
 │   └── index.html     # 主页面
 ├── image/             # 图片资源
 │   ├── face/          # 用户头像
-│   │   ├── admin.jpg  # 管理员头像
-│   │   └── guest.jpg  # 游客头像
+│   │   ├── admin.png  # 管理员头像
+│   │   └── guest.png  # 游客头像
 │   └── icon/          # 网站图标
-│       └── logo.ico   # 网站图标
+│       └── logo.png   # 网站图标
 ├── js/                # JavaScript文件
 │   ├── config.js      # 配置文件
 │   └── main.js        # 主脚本文件
