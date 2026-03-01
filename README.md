@@ -61,7 +61,7 @@ docker run -d \
   --name personal_download_web \
   -p 8080:80 \
   -v ./web:/web \
-  wsxxxstar/personal_download_web:latest
+  wsxxstar/personal_download_web:latest
 ```
 
 ### 使用Docker Compose运行
@@ -70,7 +70,7 @@ docker run -d \
 version: '3'
 services:
   web:
-    image: wsxxxstar/personal_download_web:latest
+    image: wsxxstar/personal_download_web:latest
     ports:
       - "8080:80"
     volumes:
